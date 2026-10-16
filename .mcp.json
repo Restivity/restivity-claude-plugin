@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "restivity": {
+      "type": "http",
+      "url": "https://restivity.ai/api/mcp"
+    }
+  }
+}

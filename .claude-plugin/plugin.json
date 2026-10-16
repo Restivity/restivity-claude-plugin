@@ -1,0 +1,25 @@
+{
+  "name": "restivity",
+  "displayName": "Restivity",
+  "version": "1.0.0",
+  "description": "Connect Claude to Restivity (tasks, a focus timer and earnings), with skills that teach it to write, update and work your tasks.",
+  "author": {
+    "name": "Restivity",
+    "email": "support@restivity.ai",
+    "url": "https://restivity.ai"
+  },
+  "homepage": "https://restivity.ai",
+  "repository": "https://github.com/Restivity/restivity-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "productivity",
+    "tasks",
+    "pomodoro",
+    "focus",
+    "time-tracking"
+  ],
+  "icon": "./logo.png",
+  "documentationUrl": "https://restivity.ai/learn/agents",
+  "privacyPolicyUrl": "https://restivity.ai/privacy",
+  "termsOfServiceUrl": "https://restivity.ai/terms"
+}

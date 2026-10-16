@@ -1,0 +1,15 @@
+{
+  "name": "restivity",
+  "owner": {
+    "name": "Restivity",
+    "email": "support@restivity.ai"
+  },
+  "description": "Connect Claude to Restivity (tasks, a focus timer and earnings), with skills that teach it to write, update and work your tasks.",
+  "plugins": [
+    {
+      "name": "restivity",
+      "source": "./",
+      "description": "Connect Claude to Restivity (tasks, a focus timer and earnings), with skills that teach it to write, update and work your tasks."
+    }
+  ]
+}
