@@ -2,7 +2,7 @@
 name: restivity-automation
 description: 'Drive Restivity (tasks, projects, pomodoro, tags, comments) as an AI agent via its MCP server and REST API — auth, the tool catalog, and the key task/today/search/batch/recurrence/subtask workflows.'
 metadata:
-  version: '1.0.3'
+  version: '1.0.4'
 ---
 
 # Restivity automation
@@ -16,7 +16,7 @@ Agents drive it two ways, both over the same authenticated, RLS-scoped data:
 ## Authentication (OAuth 2.1 + Dynamic Client Registration)
 
 1. Discover: `GET /.well-known/oauth-protected-resource` and `GET /.well-known/oauth-authorization-server`.
-2. Register a client: `POST /api/oauth/register` (RFC 7591 DCR), or use a pre-registered client.
+2. Register a client: `POST /api/oauth/register` (RFC 7591 DCR), use the HTTPS URL of your Client ID Metadata Document as `client_id` (CIMD, see `/auth.md`), or use a pre-registered client.
 3. Run the authorization-code + PKCE flow; exchange at `/api/oauth/token`.
 4. Call `/api/mcp` (or `/api/v1`) with `Authorization: Bearer <access_token>`.
 
