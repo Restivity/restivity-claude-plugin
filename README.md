@@ -7,12 +7,12 @@ tasks written like the ones you write, progress notes that stay short, focus ses
 ## What is inside
 
 - **The Restivity connector**: one remote MCP server, `https://restivity.ai/api/mcp` (streamable HTTP).
-  Its tools read and change your tasks, projects, custom statuses, focus sessions, comments, tags and profile, and read your earnings.
+  Its tools read and change your tasks, projects, custom statuses, teams, focus sessions, comments, tags and profile, and read your earnings.
 - **4 skills**, Markdown instructions Claude reads before it acts:
   - **`restivity-automation`**: Drive Restivity (tasks, projects, pomodoro, tags, comments) as an AI agent via its MCP server and REST API — auth, the tool catalog, and the key task/today/search/batch/recurrence/subtask workflows.
   - **`restivity-focus-flow`**: Use when an agent is asked to actually work on a Restivity task (implement, fix, write, research it) rather than only read or edit it, and the effort must show up in Restivity as task status, pomodoro work sessions and a closing comment. Triggers: 'work RES-58', 'lavora il task', 'take this task', 'track my time on it', an overlapping_active_session error.
   - **`restivity-task-updates`**: Use when an agent writes ON a Restivity task through MCP or REST — a comment, a closing summary, a task description or an Agent-findings report — so the update is short, structured (TipTap paragraphs and lists, never a wall of text) and says only what the reader needs: what changed, why, what is next.
-  - **`restivity-task-writing`**: Use when an agent CREATES or REWRITES a Restivity task (tasks_create / tasks_update description) — a bug, a finding, a feature request, a chore — so the card reads like the house ones: a title that states the fact, then Esempio reale → Causa → Proposta → Dove vive → Trovato da → Stima, as TipTap HTML (or marked text the server renders), in the user's language.
+  - **`restivity-task-writing`**: Use when an agent CREATES or REWRITES a Restivity task (tasks_create / tasks_update description) — a bug, a finding, a feature request, a chore — so the card reads like the house ones: a title that states the fact, then Esempio reale → Causa → Proposta → (Consiglio) → Dove vive → Trovato da → Stima, each section a paragraph that opens with its bold label and a period (no headings), as TipTap HTML (or marked text the server renders), in the user's language.
 
 ## Requirements
 
