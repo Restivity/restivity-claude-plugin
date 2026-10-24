@@ -1,7 +1,7 @@
 {
   "name": "restivity",
   "displayName": "Restivity",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Connect Claude to Restivity (tasks, a focus timer and earnings), with skills that teach it to write, update and work your tasks.",
   "author": {
     "name": "Restivity",
