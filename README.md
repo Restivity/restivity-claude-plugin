@@ -40,20 +40,22 @@ The connection needs a Restivity Pro or Team plan; a paid Team seat also unlocks
 
 Either way you sign in to Restivity in your browser and approve access: there is no API key to paste.
 You can revoke the access at any time from Settings → Connected apps in Restivity (https://restivity.ai/settings/integrations).
-The full walkthrough, for Claude and for other agents, is at https://restivity.ai/learn/agents.
+The full walkthrough, for Claude and for other agents: https://restivity.ai/learn/agents
 
 ## What it runs, sends and fetches
 
 - **Runs**: nothing on your computer. The plugin has no hooks, commands, scripts or binaries; the skills are text.
 - **Sends**: the requests Claude makes with the Restivity tools, and only when it uses them,
   to `https://restivity.ai/api/mcp` over HTTPS, signed in with OAuth 2.1.
-  What Restivity does with your data is in the privacy policy: https://restivity.ai/privacy.
+  What Restivity does with your data is in the privacy policy: https://restivity.ai/privacy
 - **Fetches**: nothing else. The skills ship inside the plugin.
   The current text of each one is also served at https://restivity.ai/.well-known/agent-skills/index.json, with its version and digest.
 
 ## Support
 
-Write to support@restivity.ai. Terms of service: https://restivity.ai/terms.
+Support: [support@restivity.ai](mailto:support@restivity.ai)
+
+Terms of service: https://restivity.ai/terms
 
 ## License
 
